@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,200;0,300;1,100;1,200&family=Righteous&family=Yantramanav&display=swap");
+
+/* font-family: 'Cormorant Upright', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.notesHead {
+  font-size: 5rem;
+  text-align: center;
+  margin: 20px 30px 0px 30px;
+  color: rgb(70, 40, 69);
+  font-family: 'Cormorant Upright', serif;
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.branchAndSemister{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerForBranch{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-width: 450px;
+}
+
+
+.infoBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inputBtns{
+    background-color: rgb(141, 182, 65);
+    margin: 10px 10px;
+    color: rgb(14, 15, 15);
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.inputBtns:hover{
+    background-color: #50ab3a;
+    cursor: pointer;
+}
+
+
+#branch{
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    appearance: none;
+    font-family: 'Inter', sans-serif;
+    border-style: none;
+    font-size: 2rem;
+    color: rgb(5, 5, 5);
+    border-radius: 0.5rem;
+    background-color: #ea5bba;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-weight: bolder;
+}
+
+option{
+  background-color: rgb(57, 194, 182);
+  font-weight: bolder;
+  color: rgb(4, 5, 7);
+}
+
+@media screen and (max-width: 950px) {
+  .notesHead{
+    font-size: 4.5rem;
+  }
+  .branchAndSemister{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .notesHead{
+    font-size: 4rem;
+  }
+  .inputContainer{
+    padding-top: 35px;
+  }
+  .containerForBranch{
+    min-width: 350px;
+  }
+  #branch{
+    font-size: 1.5rem;
+}
+  
+}
+@media screen and (max-width: 450px) {
+  .notesHead{
+    font-size: 3rem;
+  }
+  .inputContainer{
+    padding-top: 25px;
+  }
+  .containerForBranch{
+    min-width: 290px;
+  }
+  #branch{
+    font-size: 1.2rem;
+}
+}

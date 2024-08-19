@@ -1,0 +1,101 @@
+
+   .slider-results {
+    grid-area: results;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+    overflow: auto;
+  }
+   .slider-academics {
+    grid-area: academics;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+    margin: 0rem 2rem 0rem 0rem;
+  }
+  .slider-classRanks {
+    grid-area: classRanks;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+    overflow: auto;
+  }
+   .slider-vtuRanks {
+    grid-area: vtuRanks;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+    margin: 0rem 2rem 0rem 0rem;
+  }
+ 
+  .slider-academics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .slider-academics h1 {
+    padding: 30px 10px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  
+  .studentAcademics td {
+    padding: 0% 0% 10% 10%;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .studentAcademics {
+    width: 100%;
+  }
+  .studentResults {
+    width: 100%;
+  }
+  .studentRanks {
+    width: 100%;
+  }
+  
+  .slider-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .slider-results h1 {
+    padding: 30px 10px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  
+  .studentResults td {
+    padding: 0% 0% 10% 10%;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .slider-rankings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  
+  .slider-rankings h1 {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+
+  
+  .studentRanks td {
+    padding: 0% 5% 6% 5%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  .studentRanks td .nameAndUsn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+
+ 
